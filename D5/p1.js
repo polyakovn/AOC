@@ -1,6 +1,5 @@
 let fs = require("fs");
 let text = fs.readFileSync("input.txt").toString("utf-8");
-
 function make_polymer_reaction(){
     let left_p = 0;
     let right_p = 1;
@@ -18,6 +17,7 @@ function make_polymer_reaction(){
             right_p++;
         }
     }
+    console.log(text)
     return text.length;
 }
 
