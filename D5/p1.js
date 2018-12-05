@@ -18,6 +18,7 @@ function make_polymer_reaction(){
             right_p++;
         }
     }
+    return text.length;
 }
 
 function is_match(char1, char2) {
@@ -28,6 +29,4 @@ function is_match(char1, char2) {
      return false;
 }
 
-make_polymer_reaction();
-console.log(text);
-console.log(text.length);
+console.log(make_polymer_reaction());
